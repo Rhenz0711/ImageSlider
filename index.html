@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demon Slayer Slider</title>
+    <title>Demon Slayer Characters</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Demon Slayer Characters</h1>
-        <button id="change-characters">Change</button>
+        <h1>DEMON SLAYER CHARACTERS</h1>
     </header>
 
     <div class="container">
-        <div class="hashira">
-            <img src="scr/demons/douma.jpg" alt="">
+        <div class="slider">
+            <img id="character-image" src="" alt="Demon Slayer Character">
         </div>
-        <div class="demons"></div>
-        
+        <div class="description">
+            <h2 id="character-name" class="names"></h2>
+            <p id="character-description" class="char-description"></p>
+        </div>
     </div>
-    <div class="slider">
-        <button onclick="prev()"><</button>
-        <button onclick="next()">></button>
+
+    <div class="navigation">
+        <button onclick="prev()">&#60;</button>
+        <button onclick="next()">&#62;</button> 
     </div>
 
     <script src="script.js"></script>
