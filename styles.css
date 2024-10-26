@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header h1, button{
+    margin: 30px 20px 0 10px;
+}
+button{
+    right: 0;
+    padding: 10px 20px;
+}
+
+.container{
+    background-color: black;
+    height: 70vh;
+    width: 70%;
+}
+
+.container img{
+    width: 70%;
+    object-fit: cover;
+}
